@@ -1,6 +1,6 @@
 # onenorth.io
 
-This repo is for the Organization Pages for all [One North Interactive] projects on Github. 
+This repo is for the Organization Pages for all [One North Interactive](http://onenorth.com) [projects](https://github.com/onenorth) on Github. 
 
 ## Organization Pages
 The `onenorth.github.io` repo contains a CNAME file with the value `onenorth.io`. Requests made to `http://onenorth.io' will resolve to the `master` branch content in the `onenorth.github.io` repository. Therefore, HTML code that exists in the `master` branch of the `onenorth.github.io` repository is served when valid requests are made to `http://onenorth.io`. There is no need to have a `gh-pages` branch for the `onenorth.github.io` repository.
