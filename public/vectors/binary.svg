@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="920px" height="300px" viewBox="0 0 920 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-1" fill="#D0011B" sketch:type="MSShapeGroup" x="-154" y="-202" width="1250" height="750"></rect>
+        <text id="01001111011011100110" sketch:type="MSTextLayer" font-family="Proxima Nova Condensed" font-size="84" font-style="condensed" font-weight="normal" line-spacing="100" letter-spacing="2.86125016">
+            <tspan x="0" y="77" fill="#FFFFFF">010011110110111001100101</tspan>
+            <tspan x="920" y="77" fill="#D0011B"> </tspan>
+            <tspan x="0" y="177" fill="#FFFFFF">001000000</tspan>
+            <tspan x="400.794718" y="177" fill="#000000">I0</tspan>
+            <tspan x="469.009544" y="177" fill="#FFFFFF">0</tspan>
+            <tspan x="515.380957" y="177" letter-spacing="2.05999994" fill="#FFFFFF">111</tspan>
+            <tspan x="602.447445" y="177" fill="#FFFFFF">001101111 </tspan>
+            <tspan x="0" y="277" fill="#FFFFFF">011100100111010001101</tspan>
+            <tspan x="781.226253" y="277" letter-spacing="3.16000009" fill="#FFFFFF">000</tspan>
+        </text>
+    </g>
+</svg>

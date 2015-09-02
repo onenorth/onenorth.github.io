@@ -1,0 +1,9 @@
+.icon {
+
+}
+
+.icon--50 {
+  @media screen and (max-width: $media-tablet-max) {
+    max-width: 50%;
+  }
+}

@@ -1,9 +1,21 @@
 .intro {
+  position: relative;
   margin-bottom: double($base-line-height) + 1rem;
   padding: 4rem 0;
   text-align: center;
   background: map-get($colors, red);
   color: map-get($colors, white);
+
+  &::before {
+    content: "";
+    background: #cd1820 url("/assets/vectors/binary.svg");
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
 
   h1 {
     margin-top: 0;

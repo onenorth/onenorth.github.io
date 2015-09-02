@@ -29,6 +29,10 @@ p {
     }
 }
 
+object {
+    max-width: 100%;
+}
+
 ::-moz-selection,
 ::selection {
     background: map-get($colors, red);

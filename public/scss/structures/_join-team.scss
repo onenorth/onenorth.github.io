@@ -1,0 +1,13 @@
+.section--join-team {
+  padding: double($base-line-height) + 1rem;
+  background-color: map-get($colors, maize);
+
+  h2 {
+    color: map-get($colors, white);
+  }
+
+  p {
+    font-size: $h3-size;
+    font-weight: 300;
+  }
+}

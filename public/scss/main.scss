@@ -1,17 +1,37 @@
-// VARIABLES
+// ================
+// Variables
+// ================
 @import "vars";
 
-// BASE
+// ================
+// Vendor Files
+// ================
+@import "vendor/normalize";
+@import "vendor/reset";
+// PrismJS - Code Blocks
+@import "vendor/prism";
+
+// ================
+// Base
+// ================
 @import "base/manifest";
 
-// TYPOGRAPHY
+// ================
+// Typography
+// ================
 @import "typography/manifest";
 
-// COMPONENTS
+// ================
+// Components
+// ================
 @import "components/manifest";
 
-// MODULES
+// ================
+// Modules
+// ================
 
 
-// STRUCTURES
+// ================
+// Structures
+// ================
 @import "structures/manifest";
