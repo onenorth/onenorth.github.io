@@ -1,0 +1,39 @@
+.button {
+    @include display(inline-block);
+
+    background: map-get($colors, normal);
+    color: map-get($colors, emphasis);
+    line-height: 1;
+    font-weight: 400;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+.button--primary {
+    @include transition(background-color);
+
+    background: map-get($colors, blue);
+
+    &:active,
+    &:focus,
+    &:hover {
+        background: mix(map-get($colors, blue), map-get($colors, dark), 75%);
+    }
+}
+
+.button--link {
+    background: rgba(0,0,0,0);
+    text-decoration: underline;
+}
+
+.button--ghost {
+    background: rgba(0,0,0,0);
+    border-color: map-get($colors, blue);
+    border-style: solid;
+    border-width: 2px;
+    color: map-get($colors, blue);
+}

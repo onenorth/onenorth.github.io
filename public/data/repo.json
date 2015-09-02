@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Kickstart",
+    "full_name": "onenorth/kickstart",
+    "url": "https://github.com/onenorth/kickstart",
+    "html_url": "http://onenorth.io/kickstart",
+    "homepage": "http://onenorth.io/kickstart",
+    "description": "Kickstart your website project"
+  },
+  {
+    "name": "Express-Loggly-IIS",
+    "full_name": "onenorth/express-loggly-iis",
+    "url": "https://github.com/onenorth/express-loggly-iis",
+    "html_url": "https://github.com/onenorth/express-loggly-iis",
+    "homepage": "https://github.com/onenorth/express-loggly-iis",
+    "description": "Express module providing IIS logging format for Loggly"
+  },
+  {
+    "name": "Kickstart-Assemble",
+    "full_name": "onenorth/kickstart-assemble",
+    "url": "https://github.com/onenorth/kickstart-assemble",
+    "html_url": "https://github.com/onenorth/kickstart-assemble",
+    "homepage": "https://github.com/onenorth/kickstart-assemble",
+    "description": "Template compiler and styleguide generator for Kickstart"
+  },
+  {
+    "name": "workflow-full-history",
+    "full_name": "onenorth/workflow-full-history",
+    "url": "https://github.com/onenorth/workflow-full-history",
+    "html_url": "https://github.com/onenorth/workflow-full-history",
+    "homepage": "https://github.com/onenorth/workflow-full-history",
+    "description": "Sitecore module that displays all the history for each version of an item in a single pop-up."
+  },
+  {
+    "name": "express-subitem",
+    "full_name": "onenorth/express-subitem",
+    "url": "https://github.com/onenorth/express-subitem",
+    "html_url": "https://github.com/onenorth/express-subitem",
+    "homepage": "https://github.com/onenorth/express-subitem",
+    "description": "Sitecore module that allows content editors to edit multiple child Sitecore items at the same time within the context of the parent item."
+  },
+  {
+    "name": "onibot",
+    "full_name": "onenorth/onibot",
+    "url": "https://github.com/onenorth/onibot",
+    "html_url": "https://github.com/onenorth/onibot",
+    "homepage": "https://github.com/onenorth/onibot",
+    "description": "Johnny-Five-based Node.js server and website for controlling a custom telepresence robot."
+  },
+  {
+    "name": "tds-project-merge",
+    "full_name": "onenorth/tds-project-merge",
+    "url": "https://github.com/onenorth/tds-project-merge",
+    "html_url": "https://github.com/onenorth/tds-project-merge",
+    "homepage": "https://github.com/onenorth/tds-project-merge",
+    "description": "Sitecore TDS module that uses NuGet to add items to existing TDS projects as a way to get an initial data model into a new Sitecore build."
+  }
+]

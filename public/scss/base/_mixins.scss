@@ -1,0 +1,61 @@
+@mixin clearfix {
+    &:after {
+        clear: both;
+    }
+
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+}
+
+@mixin box-sizing($box-sizing: border-box) {
+    box-sizing: $box-sizing;
+}
+
+@mixin display($display: block) {
+    display: $display;
+
+    @if ($display == inline-block and $legacy_support_for_ie) {
+        *display: inline;
+        zoom: 1;
+    }
+}
+
+/// Helper mixin to size elements
+/// @param {Number} $width - Width
+/// @param {Number} $height ($width) - Height
+@mixin size($width, $height: auto) {
+  width: $width;
+  height: $height;
+}
+
+@mixin visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+
+    &.focusable {
+        &:active,
+        &:focus {
+            clip: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            position: static;
+            width: auto;
+        }
+    }
+}
+
+
+
+@mixin transition($property: all, $timing: 250) {
+    transition: $property #{$timing+ms} cubic-bezier(0.86, 0, 0.07, 1) 0s;
+}

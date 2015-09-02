@@ -1,0 +1,23 @@
+.section--repos {
+
+  .section-header {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.repo {
+  min-height: 240px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: map-get($colors, light);
+}
+
+.repo__name {
+  margin-top: 0;
+  font-size: $h3-size;
+  font-weight: 300;
+}

@@ -1,0 +1,36 @@
+<header class="navbar" role="banner">
+
+  <div class="grid-container">
+
+    <div class="grid-33">
+
+      <h1 class="brand">
+
+        <a class="brand__link" href="http://onenorth.io/kickstart" alt="Kickstart Home">
+
+          <object type="image/svg+xml" data="assets/vectors/{{site.logo_svg}}" class="brand__logo">
+          </object>
+
+          <span class="brand__name">{{site.name}}</span>
+
+        </a>
+
+      </h1>
+
+    </div>
+
+    <div class="grid-33 push-33">
+
+      <div class="navbar-links">
+
+        {{#each site.nav.links }}
+        <a class="navbar-link" href="{{url}}" title="{{alt}}" rel="prefetch">{{text}}</a>
+        {{/each}}
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>

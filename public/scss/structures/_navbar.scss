@@ -1,0 +1,51 @@
+.navbar {
+  // background: map-get($colors, navbar);
+  // color: map-get($colors, whisper);
+}
+
+.navbar-links {
+  text-align: center;
+}
+
+.navbar-link {
+  @include display(inline-block);
+
+  padding: 25px;
+  color: map-get($colors, red);
+}
+
+.brand {
+  margin: 0;
+
+  @media screen and (max-width: $media-tablet-max) {
+    text-align: center;
+  }
+}
+
+.brand__link {
+  @include display(inline-block);
+
+  padding: 25px 0 22px 0;
+  font-size: $h4-size;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: map-get($colors, red);
+
+
+  &:hover,
+  &:focus {
+    color: map-get($colors, red);
+  }
+}
+
+.brand__name {
+  @include visually-hidden;
+}
+
+.brand__logo {
+  max-width: 240px;
+}
+
+

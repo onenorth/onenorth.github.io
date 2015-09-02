@@ -1,0 +1,26 @@
+ul,
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.list {
+
+}
+
+.list--flat {
+  @extend %unstyled-list;
+
+  &, .list-item {
+    @include display(inline-block);
+  }
+}
+
+.list--links {
+  @extend %unstyled-list;
+
+  .list-link {
+    text-decoration: none;
+  }
+}
+

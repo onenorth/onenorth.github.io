@@ -1,0 +1,45 @@
+//==================
+// Theme Colors
+// =================
+$base-colors: (
+    dark: rgb(45, 45, 45),
+    medium: rgb(160, 160, 160),
+    light: rgb(242, 242, 242),
+    black: rgb(0, 0, 0),
+    white: rgb(255, 255, 255),
+    blue: rgb(41, 63, 84),
+    lightblue: rgb(90, 149, 229),
+    red: rgb(205, 24, 32)
+);
+
+$theme-dark: (
+    menu-background: map-get($base-colors, light),
+    navbar: map-get($base-colors, red),
+    emphasis: map-get($base-colors, light),
+    normal: map-get($base-colors, medium),
+    whisper: lighten(map-get($base-colors, medium), 15%)
+);
+
+$theme-light: (
+    menu-background: map-get($base-colors, light),
+    emphasis: map-get($base-colors, dark),
+    normal: darken(map-get($base-colors, medium), 10%)
+);
+
+$theme-medium: (
+    menu-background: rgb(75,75,75),
+    emphasis: map-get($base-colors, medium),
+    normal: darken(map-get($base-colors, medium), 15%)
+);
+
+$theme: $theme-dark;
+
+$colors: map-merge($base-colors, $theme);
+
+//==================
+// Vertical Rhythm
+// =================
+$default-spacing: 1rem;
+
+
+

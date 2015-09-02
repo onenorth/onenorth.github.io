@@ -1,0 +1,41 @@
+{
+  "name": "onenorth.github.io",
+  "version": "1.0.0",
+  "description": "Source repository for onenorth.github.io",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-postcss": "^6.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-svgmin": "^1.2.0",
+    "kickstart-assemble": "onenorth/kickstart-assemble#master",
+    "run-sequence": "^1.1.2"
+  },
+  "scripts": {
+    "gulp": "node node_modules/gulp/bin/gulp",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onenorth/onenorth.github.io.git"
+  },
+  "keywords": [
+    "One North",
+    "One North Interactive",
+    "Documentation"
+  ],
+  "author": "Chris Wigley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onenorth/onenorth.github.io/issues"
+  },
+  "homepage": "https://github.com/onenorth/onenorth.github.io#readme"
+}

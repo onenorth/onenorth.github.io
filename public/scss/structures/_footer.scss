@@ -1,0 +1,32 @@
+.footer {
+  position: relative;
+  bottom: 0px;
+  padding: 25px 0 20px 0;
+  background: map-get($colors, whisper);
+
+  @media screen and (max-width: $media-mobile-max) {
+    text-align: center;
+  }
+}
+
+.brand__logo--small {
+  max-width: 140px;
+
+  @media screen and (max-width: $media-mobile-max) {
+    margin-bottom: 10px;
+  }
+}
+
+.contact-info {
+  font-size: 90%;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .pipe {
+    padding: 0 6px 0 2px;
+    vertical-align: text-bottom;
+    line-height: 1.5;
+  }
+}

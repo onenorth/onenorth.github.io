@@ -1,0 +1,30 @@
+{
+  "name": "onenorth.io",
+  "title": "onenorth.io",
+  "url": "http://onenorth.io",
+  "logo": "onenorth_logo.png",
+  "logo_svg": "onenorth-io.svg",
+  "onenorth_logo_svg": "onenorth_logo.svg",
+  "nav": {
+    "links": [
+      {
+        "text": "Blog",
+        "alt": "One North Blog",
+        "url": "http://onenorth.com/blog"
+      },
+      {
+        "text": "Github",
+        "alt": "One North on Github",
+        "url": "http://github.com/onenorth/"
+      }
+    ]
+  },
+  "contact": {
+    "street_1": "222 North LaSalle St",
+    "street_2": "Suite 1500",
+    "city": "Chicago",
+    "state": "Illinois",
+    "postal_code": "60601",
+    "phone": "312-469-1740"
+  }
+}
