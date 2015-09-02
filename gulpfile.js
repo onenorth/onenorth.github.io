@@ -16,10 +16,10 @@ gulp.task('serve', function(done) {
   return sequence(['default'], ['watch'], done);
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy', ['default'], function() {
   var github = require('gulp-gh-pages');
 
-  return gulp.src(dest)
+  return gulp.src(dest + '/**/*')
     .pipe(github({ branch: 'master'}))
 })
 
@@ -67,7 +67,7 @@ gulp.task('compile', function(done) {
 });
 
 gulp.task('copy:extras', function(done) {
-  return gulp.src([assets + '/favicon.ico', assets + '/robots.txt'])
+  return gulp.src([assets + '/favicon.ico', assets + '/robots.txt', './CNAME'])
     .pipe(gulp.dest(dest));
 });
 
