@@ -5,15 +5,15 @@
     "url": "https://github.com/onenorth/kickstart",
     "html_url": "http://onenorth.io/kickstart",
     "homepage": "http://onenorth.io/kickstart",
-    "description": "Kickstart your website project"
+    "description": "Kickstart is a combined web project starter kit, pattern lab and styleguide generator aimed at starting you off on the right track, and keeping you there."
   },
   {
-    "name": "Express-Loggly-IIS",
+    "name": "express-loggly-iis",
     "full_name": "onenorth/express-loggly-iis",
     "url": "https://github.com/onenorth/express-loggly-iis",
     "html_url": "https://github.com/onenorth/express-loggly-iis",
     "homepage": "https://github.com/onenorth/express-loggly-iis",
-    "description": "Express module providing IIS logging format for Loggly"
+    "description": "Express module providing IIS logging format for Loggly."
   },
   {
     "name": "Kickstart-Assemble",
@@ -21,7 +21,7 @@
     "url": "https://github.com/onenorth/kickstart-assemble",
     "html_url": "https://github.com/onenorth/kickstart-assemble",
     "homepage": "https://github.com/onenorth/kickstart-assemble",
-    "description": "Template compiler and styleguide generator for Kickstart"
+    "description": "Template compiler and styleguide generator for Kickstart."
   },
   {
     "name": "workflow-full-history",
