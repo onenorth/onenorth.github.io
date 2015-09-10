@@ -4,15 +4,15 @@
     text-align: center;
   }
 
-  h1 {
+  h2 {
     margin-top: 0;
   }
 }
 
 .repo {
-  min-height: 240px;
+  min-height: 260px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 1em;
   background: map-get($colors, light);
 }
 
@@ -20,4 +20,8 @@
   margin-top: 0;
   font-size: $h3-size;
   font-weight: 300;
+}
+
+.repo__description {
+  font-size: $h5-size;
 }

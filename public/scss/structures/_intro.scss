@@ -1,20 +1,23 @@
 .intro {
   position: relative;
-  margin-bottom: double($base-line-height) + 1rem;
-  padding: 4rem 0;
+  padding: 4em 0;
   text-align: center;
   background: map-get($colors, red);
   color: map-get($colors, white);
+  z-index: 1;
 
   &::before {
     content: "";
-    background: #cd1820 url("/assets/vectors/binary.svg");
-    opacity: 0.1;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
+    background: #cd1820 url("/assets/vectors/binary.svg");
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: 50%;
+    opacity: 0.1;
   }
 
   h1 {
@@ -23,7 +26,7 @@
   }
 
   p {
-    font-size: $h2-size;
+    font-size: $h3-size;
     font-weight: 300;
   }
 
@@ -31,19 +34,54 @@
     @include display(inline-block);
 
     position: relative;
-    padding: 0 6px;
-    text-decoration: none;
+    vertical-align: bottom;
+    white-space: nowrap;
+    font-weight: 400;
     color: map-get($colors, white);
-    background-color: rgba(0,0,0,0.07);
-    transition: top 0.18s cubic-bezier(.5, -.5, .3, 1.3) 0s, background .1s ease .1s;
+    transition: color 0.3s;
+    perspective: 600px;
+    perspective-origin: 50% 100%;
+
+    &::before,
+    &::after {
+      @include box-sizing(content-box);
+
+      position: absolute;
+      top: 0;
+      left: -4px;
+      z-index: -1;
+      padding: 0 4px;
+      width: 100%;
+      height: 100%;
+      content: '';
+      backface-visibility: hidden;
+      pointer-events: none;
+    }
+
+    &::before {
+      background-color: rgba(255,255,255,0.8);
+      transform: rotateX(90deg);
+      transform-origin: 50% 100%;
+      transition: transform 0.2s;
+      transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    }
+
+    &::after {
+      border-bottom: 2px solid rgba(255,255,255,0.8);
+    }
+
+    &:active,
+    &:hover {
+      outline: none;
+    }
 
     &:hover,
     &:focus {
-      background-color: rgba(0,0,0,0.15);
-    }
+      color: map-get($colors, red);
 
-    &:focus {
-      top: -1px;
+      &::before {
+        transform: rotateX(0deg);
+      }
     }
   }
 }

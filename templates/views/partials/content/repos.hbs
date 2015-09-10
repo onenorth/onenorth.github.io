@@ -3,17 +3,17 @@
   <div class="grid-container">
     <div class="grid-100">
       <header class="section-header">
-        <h1>GitHub Projects</h1>
+        <h2>GitHub Projects</h2>
       </header>
     </div>
     {{#each repo}}
     <div class="grid-33 tablet-grid-50 mobile-grid-100">
       <div class="repo">
-        <h2 class="repo__name">
+        <h3 class="repo__name">
           <a href="{{html_url}}" alt="{{name}}">{{name}}</a>
-        </h2>
+        </h3>
         {{#if description}}
-        <p>{{description}}</p>
+        <p class="repo__description">{{description}}</p>
         {{/if}}
       </div>
     </div>

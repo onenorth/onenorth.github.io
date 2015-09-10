@@ -1,9 +1,5 @@
 .section {
-  margin-bottom: double($base-line-height) + 1rem;
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }
+  padding: 4em 0;
 
   @media screen and (max-width: $media-tablet-max) {
     text-align: center;
